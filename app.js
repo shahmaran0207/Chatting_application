@@ -1,13 +1,8 @@
-const express = require("express");
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 require('dotenv').config();
-const cors = require("cors");
-const app = express(cors());
 
-mongoose
-    .connect(process.env.DB,{
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-}).then(()=>console.log("connected to database"));
+const mongoURI = process.env.MONGODB_URI;
 
-module.exports = app;
+mongoose.connect(mongoURI)
+    .then(() => console.log('MongoDB 연결 성공'))
+    .catch((err) => console.error('MongoDB 연결 실패:', err));

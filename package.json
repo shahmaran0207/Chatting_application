@@ -4,13 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@testing-library/react": "^16.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "express": "^4.21.1",
+    "mongoose": "^8.8.1",
+    "mysql2": "^3.11.4",
+    "react-dom": "^18.3.1",
+    "socket.io": "^4.8.1",
     "socket.io-client": "^4.8.1"
   }
 }

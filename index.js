@@ -10,7 +10,7 @@ const io = new Server(httpServer, {
     }
 });
 
-require("./Utils/io")(io);
+require("./src/Utils/io")(io);
 
 httpServer.listen(process.env.PORT, () =>{
     console.log("server listen")
