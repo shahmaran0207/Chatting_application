@@ -1,0 +1,4 @@
+1. cmd에 netstat -ano | findstr :5003 실행
+ -> 사용중인 번호 뜰것임
+
+2. taskkill /PID 사용중인 번호 /F
