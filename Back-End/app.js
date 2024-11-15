@@ -7,8 +7,8 @@ app.use(cors());
 
 mongoose
     .connect(process.env.DB,{
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
-}).then(()=>console.log("connected to database"));
+            useNewUrlParser: true,
+            useUnifiedTopology: true,
+    }).then(()=>console.log("connected to database"));
 
 module.exports=app;
