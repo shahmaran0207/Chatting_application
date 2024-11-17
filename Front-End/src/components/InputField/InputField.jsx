@@ -1,7 +1,8 @@
-import React from 'react'
-import { Input } from "@mui/base/Input";
 import { Button } from "@mui/base/Button";
+import { Input } from "@mui/base/Input";
+import React from 'react'
 import './InputField.css'
+
 const InputField = ({message,setMessage,sendMessage}) => {
 
   return (
