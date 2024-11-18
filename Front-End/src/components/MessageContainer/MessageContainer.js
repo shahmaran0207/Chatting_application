@@ -6,10 +6,6 @@ const MessageContainer = ({ messageList, user }) => {
   return (
       <div>
         {messageList.map((message, index) => {
-          // 여기에 콘솔 로그 추가
-          console.log("user:", user);
-          console.log("message.user:", message.user);
-
           return (
               <Container key={message._id} className="message-container">
                 {message.user.name === "system" ? (

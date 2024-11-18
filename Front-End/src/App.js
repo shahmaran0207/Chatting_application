@@ -8,7 +8,6 @@ function App() {
     const [user, setUser] = useState(null);
     const [message, setMessage] = useState('');
     const [messageList, setMessageList]=useState([]);
-    console.log("message list", messageList);
 
     useEffect(() => {
         socket.on('message', (message)=>{
@@ -22,8 +21,7 @@ function App() {
 
         socket.emit("login", userName, (res) => {
             if (res?.ok) {
-                console.log("sid:", res.data.sid); // sid 출력
-                setUser(res.data); // 사용자 상태 저장
+                setUser(res.data);
             }
         });
     };

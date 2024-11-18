@@ -1,57 +1,63 @@
 .input-area {
-    background-color: red;
-    min-height:50px;
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
-  .plus-button{
-    background-color: lightslategray;
-    width: 50px;
-    color:white;
-    font-weight: bold;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-  }
+  background-color: white;
+  min-height: 50px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
 
-  .input-container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-  }
+.plus-button {
+  background-color: lightslategray;
+  width: 50px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
 
-  .MuiInput-root{
-    height: 100%;
-    width: 100%;
-    border:none;
-    border-color: white;
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
 
-  }
+.MuiInput-root {
+  height: 100%;
+  width: 100%;
+  border: none;
+  background-color: white; /* 입력 필드 배경색 */
+  box-shadow: none; /* 그림자 제거 */
+}
 
+input {
+  border: none; /* 경계선 제거 */
+  width: 100%;
+  height: 100%;
+  padding-left: 5px;
+  background-color: white; /* 입력 필드 배경색 */
+  outline: none; /* 포커스 시 외곽선 제거 */
+  box-shadow: none; /* 기본 그림자 제거 */
+}
 
-  input{
-    border:none;
-    width: 100%;
-    height: 100%;
-    padding-left: 5px;
-  }
-  input:focus{
-    outline:none;
+input:focus {
+  outline: none; /* 포커스 시 외곽선 제거 */
+  border: none; /* 포커스 시 경계선 제거 */
+}
 
-  }
+.send-button {
+  min-width: 70px;
+  border-radius: 0;
+  background-color: #F7E600;
+  border: none;
+}
 
-  .send-button{
-    min-width: 70px;
-    border-radius:0;
-    background-color:#F7E600;
-    border:none;
-  }
-  .send-button:hover {
-    cursor:pointer;
-  }
-  .send-button:active {
-    background-color: yellow;
-  }
+.send-button:hover {
+  cursor: pointer;
+}
+
+.send-button:active {
+  background-color: yellow;
+}
