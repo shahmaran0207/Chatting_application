@@ -1,6 +1,6 @@
 # 🗨️ Chatting Application
 
-![Chatting Banner](https://github.com/shahmaran0207/Chatting_application/blob/main/chatting.jpg)
+![Chatting Banner](https://github.com/shahmaran0207/Chatting_application/blob/main/chatting.png)
 
 ## 📋 프로젝트 설명
 카카오톡 메시지 앱 디자인을 참고한 간단한 채팅 애플리케이션입니다. **웹 소켓(WebSocket)**을 사용하여 실시간으로 메시지를 주고받을 수 있는 기능을 구현했습니다.
@@ -27,7 +27,7 @@
 - 내가 보낸 메시지는 **노란색 배경**으로 오른쪽에 표시됩니다.
 - 상대방이 보낸 메시지는 **흰색 배경**으로 왼쪽에 표시됩니다.
 
-![Chat Example](https://github.com/shahmaran0207/Chatting_application/blob/main/chatting.jpg)
+![Chat Example](https://github.com/shahmaran0207/Chatting_application/blob/main/chatting.png)
 
 ---
 
@@ -61,14 +61,14 @@
 ## 1. Language
 | JavaScript |
 |:-----------------:|
-| <img src="https://github.com/shahmaran0207/crime_report_correlation/blob/main/js.png" alt="Python" height="100" width="100"/> |
+| <img src="https://github.com/shahmaran0207/Chatting_application/blob/main/js.png" alt="Python" height="100" width="100"/> |
 
 <br/>
 
 ## 2. Tools
 | IntelliJ IDEA  |
 |:-----------------:|
-| <img src="https://github.com/shahmaran0207/crime_report_correlation/blob/main/intellijb.png" alt="matplotlib" width="100"/> | 
+| <img src="https://github.com/shahmaran0207/Chatting_application/blob/main/intellij.png" alt="matplotlib" width="100"/> | 
 <br/><br/>
 
 
