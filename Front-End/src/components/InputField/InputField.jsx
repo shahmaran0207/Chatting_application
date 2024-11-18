@@ -9,13 +9,14 @@ const InputField = ({message,setMessage,sendMessage}) => {
     <div className="input-area">
           <div className="plus-button">+</div>
           <form onSubmit={sendMessage} className="input-container">
-            <Input
-              placeholder="Type in here…"
-              value={message}
-              onChange={(event) => setMessage(event.target.value)}
-              multiline={false}
-              rows={1}
-            />
+              <Input
+                  style={{ backgroundColor: "transparent", border: "none" }}
+                  placeholder="Type in here…"
+                  value={message}
+                  onChange={(event) => setMessage(event.target.value)}
+                  multiline={false}
+                  rows={1}
+              />
 
             <Button
               disabled={message === ""}

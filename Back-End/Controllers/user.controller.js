@@ -19,10 +19,13 @@ userController.saveUser=async (userName, sid)=>{
     return user;
 };
 
-userController.checkUser= async ()=>{
-    const user = await User.findOne({token:sid});
-    if(!user) throw new Error("user not found");
+userController.checkUser = async (sid) => {
+    if (!sid) throw new Error("Socket ID is required");
+
+    const user = await User.findOne({ token: sid });
+    if (!user) throw new Error("User not found");
+
     return user;
-}
+};
 
 module.exports=userController;
